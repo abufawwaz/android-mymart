@@ -1,16 +1,13 @@
 # MyMart
-# stw300cem-final-project-Sprajapati123
-stw300cem-final-project-Sprajapati123 created by GitHub Classroom
+# stw300cem-final-project-
 
 
 
-![minio_ANDROID1](https://github.com/stw300cem/stw300cem-final-project-Sprajapati123/blob/master/app/src/main/res/drawable/mymartlogin.png)
 
 ## Introduction
 
 MyMart is a E-commerce application that refers to the buying of products online that reduces human effort and time. Today’s world is dominated by Information and technology, people spent most of the time in Internet. People prefer to buy  online instead of going to each individual shop. So MyMart is android application that simplifies shopping and reduces human effort and time. Among different type of E-commerce, MyMart is (Business to customer) B2C.
 
-![minio_ANDROID1](https://github.com/stw300cem/stw300cem-final-project-Sprajapati123/blob/master/app/src/main/res/drawable/gitscreen.png)
 ## Dependencies
 
 ~~~
@@ -81,14 +78,14 @@ MyMart is a E-commerce application that refers to the buying of products online 
  
 ```r
 
-https://youtu.be/k7SjHjyP_6A  
+
 
 ```
 
 ## backend link of Api
 
 ```qw
-https://github.com/stw304cem/t2-backend-api-Sprajapati123.git
+
 ```
 
 
