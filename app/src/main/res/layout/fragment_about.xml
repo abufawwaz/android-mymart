@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.AboutFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mycart"
+        android:id="@+id/imgabout" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/imgabout"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/fb"
+        android:src="@drawable/fb" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_toEndOf="@id/fb"
+        android:layout_below="@id/imgabout"
+        android:text="Like us on facebook"
+        android:layout_marginLeft="20dp"
+        android:gravity="left"
+        android:textSize="25sp"
+        android:id="@+id/btnfb"
+        android:layout_marginTop="25dp"
+        android:background="@color/whitetext"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/fb"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/insta"
+        android:src="@drawable/instagram3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_toEndOf="@id/fb"
+        android:layout_below="@id/btnfb"
+        android:layout_marginLeft="20dp"
+        android:text="Follow on instagram"
+        android:id="@+id/btninsta"
+        android:gravity="left"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:background="@color/whitetext"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/insta"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/skype"
+        android:src="@drawable/twitter" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_toEndOf="@id/fb"
+        android:layout_below="@id/btninsta"
+        android:text="Follow on twitter"
+        android:layout_marginLeft="20dp"
+        android:gravity="left"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:background="@color/whitetext"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/skype"
+        android:id="@+id/mymart"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center"
+        android:textSize="20sp"
+        android:text="MyMart" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mymart"
+        android:id="@+id/emailabout"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center"
+        android:textSize="20sp"
+        android:text="support@mymart.com" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailabout"
+        android:id="@+id/number"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center"
+        android:textSize="20sp"
+        android:text="9860339850" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/number"
+        android:id="@+id/version"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center"
+        android:textSize="20sp"
+        android:text="v1.0.0" />
+
+</RelativeLayout>

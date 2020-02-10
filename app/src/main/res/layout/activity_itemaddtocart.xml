@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".ItemaddtocartActivity">
+
+    <TextView
+        android:id="@+id/itemid"
+        android:layout_width="83dp"
+        android:visibility="invisible"
+        android:layout_height="36dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="itemid" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgview2"
+        android:layout_width="150dp"
+        android:layout_height="154dp"
+        android:layout_marginLeft="125dp"
+        android:src="@drawable/noimage" />
+
+    <TextView
+        android:id="@+id/itemname"
+        android:layout_width="83dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/imgview2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Item Name" />
+
+
+
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_toEndOf="@+id/itemname"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_below="@+id/imgview2"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="Item Name" />
+
+
+
+    <TextView
+        android:id="@+id/itemprice"
+        android:layout_width="83dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/itemname"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Item price" />
+
+
+    <TextView
+        android:id="@+id/price2"
+        android:layout_toEndOf="@+id/itemprice"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_below="@+id/name2"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="Item price" />
+
+    <TextView
+        android:id="@+id/itemdescription"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_below="@+id/itemprice"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Item description" />
+
+    <TextView
+        android:id="@+id/description2"
+        android:layout_toEndOf="@+id/itemdescription"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_below="@+id/itemprice"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Item description" />
+
+    <TextView
+        android:id="@+id/itemcategory"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_below="@+id/itemdescription"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Item category" />
+
+    <TextView
+        android:id="@+id/category2"
+        android:layout_toEndOf="@+id/itemcategory"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_below="@+id/itemdescription"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="20dp"
+        android:hint="Item category" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etcity"
+        android:hint="Enter city"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@+id/itemcategory"
+        />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etstreet"
+        android:hint="Enter street"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:layout_toEndOf="@id/etcity"
+        android:layout_below="@+id/category2"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etquantity"
+        android:hint="Enter quantity"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/etstreet"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnaddtocart"
+        android:layout_below="@id/etquantity"
+        android:drawableLeft="@drawable/ic_add_shopping_cart_black_24dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:text="Add to cart"
+        android:background="@color/Button"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/imgcart"/>
+</RelativeLayout>

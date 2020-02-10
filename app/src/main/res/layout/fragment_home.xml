@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="Fragments.HomeFragment">
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Welcome to MyMart"
+     android:layout_marginTop="5dp"
+     android:textColor="@color/colorPrimary"
+     android:id="@+id/mymart"
+     android:gravity="center_horizontal"
+     />
+ <android.support.v4.view.ViewPager
+     android:id="@+id/viewPager"
+     android:layout_below="@+id/mymart"
+     android:layout_width="match_parent"
+     android:layout_height="190dp"
+     android:layout_marginBottom="8dp"/>
+
+ <LinearLayout
+     android:id="@+id/SliderDots"
+     android:layout_below="@+id/viewPager"
+     android:orientation="horizontal"
+     android:gravity="center_vertical|center_horizontal"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"/>
+
+ <android.support.v7.widget.RecyclerView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:id="@+id/recyclerview"
+     android:layout_below="@+id/SliderDots"
+     >
+
+ </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_person_black_24dp"
+        />
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/usernamewrapper"
+        android:textColorHint="@color/whitetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/usernameregister"
+        android:hint=" Enter username"
+        android:textColor="@color/whitetext"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/passwordwrapper"
+        android:textColorHint="@color/whitetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/passwordregister"
+        android:hint=" Enter password"
+        android:textColor="@color/whitetext"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/addresswrapper"
+        android:layout_width="match_parent"
+        android:textColorHint="@color/whitetext"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="@color/whitetext"
+        android:id="@+id/addressregister"
+        android:hint=" Enter address"
+        android:drawableLeft="@drawable/ic_home_black_24dp"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/contactwrapper"
+        android:layout_width="match_parent"
+        android:textColorHint="@color/whitetext"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/whitetext"
+        android:layout_margin="20dp"
+        android:id="@+id/contactregister"
+        android:hint=" Enter contact number"
+        android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/genderregister"
+        android:layout_margin="20dp">
+
+    </Spinner>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnregister"
+    android:text="Register"
+    android:textSize="20sp"
+    android:layout_margin="20dp"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/display"
+        />
+
+</LinearLayout>

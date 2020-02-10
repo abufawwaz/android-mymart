@@ -1,0 +1,139 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.HelpFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FAQs"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="1. Do you have an office address?" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="Yes we do. Our corporate office is located in Dillibazar, Kathmandu. However, since we are an online store, we do not have physical showrooms. Once we receive your order, we will deliver it to your doorstep." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="2. When will I get my product after I place an order (delivery period)?" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="Our standard delivery timeline is 4-9 days. As soon as your order is dispatched from our warehouse, you will receive an email to confirm that your package is on its way. You will also be contacted by our dispatch personnel on the day of delivery." />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="3.How can I change my order?" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="Unfortunately, once you’ve placed your order, it is not possible to amend any details, as our warehouse team will have already started processing your order" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="3.How long have I got to send an item back and get a refund?" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="We hope you’ll love every Shopozine purchase you make. But if you ever need to return an item, you can do so within 7 days of receipt." />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="4.How can I change my order?" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:text="Unfortunately, once you’ve placed your order, it is not possible to amend any details, as our warehouse team will have already started processing your order" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="5.What is your returns policy?" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="We currently have a returns policy of 7 days from the date of delivery and this applies to all fashion and general merchandise products. If you are dissatisfied with any product you receive, you can request for a replacement as long as it meets our conditions." />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="6.Which locations do you accept Cash on Delivery?" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="We accept Cash on Delivery in all cities across Nepal. If you prefer to pay in cash, please make sure you have the exact amount as our delivery riders do not carry petty cash." />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="7. My items haven’t arrived yet. What can I do?" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="If you haven’t received your items after the 5th day, kindly contact us on 11-XXXXX or send an email to sures.chaudhary0@gmail.com (quoting your order number). If you are located outside our COD regions, we urge you to track the progress of your order using your tracking number on: www.tcscouriers.com or http://www.leopardscourier.com/" />
+</LinearLayout>
+</ScrollView>

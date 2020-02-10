@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="Fragments.MoreFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mymartlogin"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Feedback"
+        android:layout_marginLeft="10dp"
+        android:background="#ffffff"
+        android:id="@+id/gotofeedback"
+        android:drawableLeft="@drawable/ic_announcement_black_24dp"
+        android:textAlignment="textStart"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Help"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ic_help_black_24dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/help"
+        android:textAlignment="textStart"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   About us"
+        android:drawableLeft="@drawable/ic_error_black_24dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/btnaboutus"
+        android:textAlignment="textStart"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Logout"
+        android:drawableLeft="@drawable/ic_rotate_left_black_24dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/btnlogout"
+        android:textAlignment="textStart"
+        />
+
+
+
+
+</LinearLayout>

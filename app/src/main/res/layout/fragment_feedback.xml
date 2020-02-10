@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="Fragments.FeedbackFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mycart"
+
+        />
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/namewrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/etnamefeedback"
+    android:gravity="center"
+    android:hint="Enter name"
+    android:layout_margin="20dp"
+    />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/ewrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etemailfeedback"
+        android:hint="Enter email"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/numberwrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etphonefeedback"
+        android:hint="Enter phone number"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/mesagewarper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etmessagefeedback"
+        android:hint="Enter feedback"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/btnimage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+       android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/feedback" />
+
+
+
+
+</LinearLayout>
