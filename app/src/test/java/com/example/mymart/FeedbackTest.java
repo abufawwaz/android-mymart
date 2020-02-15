@@ -15,7 +15,7 @@ public class FeedbackTest {
 
     @Test
     public void FeedbackTest() throws IOException {
-        Feedbacklogic feedbacklogic=new Feedbacklogic("sandis","sandis@sandis.com","9860339850","This is an application");
+        Feedbacklogic feedbacklogic=new Feedbacklogic("sures","sures@gmail.com","9818725561","This is an application");
         boolean result = feedbacklogic.feedback();
         assertThat(result,is(IsNull.notNullValue()));
     }

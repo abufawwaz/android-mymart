@@ -19,7 +19,7 @@ public class RegisterTest {
 
     @Test
     public void RegisterTest() throws IOException{
-        RegisterUser registerUser=new RegisterUser("sndis","sandis","bansbari","98603398500","male","User");
+        RegisterUser registerUser=new RegisterUser("sures","sures","lazimpat","9818725561","male","User");
         boolean result=registerUser.register();
         assertEquals(true,result);
     }
